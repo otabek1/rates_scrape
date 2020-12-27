@@ -1,83 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Valyuta Kurslari</title>
-</head>
-<body>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+      body {
+        margin: 0;
+      }
+      @media only screen and (min-width: 320px) {
+        .nav h1 {
+          font-size: 20px;
+          margin: 0 10px 10px 10px;
+          color: white;
+          text-align: center;
+          font-family: "Roboto", sans-serif;
+          letter-spacing: 3px;
+        }
+        .nav {
+          height: 70px;
+          padding-top: 20px;
+          /* position: absolute; */
+          width: 100%;
+          left: 0px;
+          top: 0px;
+          background: #00b533;
+        }
+
+        td {
+          font-size: 16px;
+          padding: 10px 20px;
+          border-bottom: 2px solid black;
+          margin-right: 10px;
+        }
+        table {
+          /* display: block; */
+          margin: 30px auto;
+          text-align: center;
+          border-spacing: 10px 2px;
+        }
+        th {
+          font-size: 20px;
+        }
+      }
+
+      @media only screen and (min-width: 961px) {
+        .nav {
+          /* position: absolute; */
+          width: 100%;
+          height: 80px;
+          left: 0px;
+          top: 0px;
+          background: #00b533;
+          padding-top: 20px;
+        }
+
+        .nav h1 {
+          color: white;
+          text-align: center;
+          font-family: "Roboto", sans-serif;
+          letter-spacing: 3px;
+          font-size: 35px;
+          overflow: hidden;
+        }
+        td {
+          font-size: 30px;
+          padding: 10px 20px;
+          border-bottom: 2px solid black;
+          margin-right: 10px;
+        }
+        table {
+          /* display: block; */
+          margin: 30px auto;
+          text-align: center;
+          border-spacing: 20px 2px;
+        }
+        th {
+          font-size: 30px;
+        }
+
+        tr:hover {
+          background-color: rgb(209, 209, 209);
+        }
+      }
+    </style>
+  </head>
+  <body>
     <div class="nav">
-        <h1>O’zbekiston banklaridagi dollar valyuta kurslari</h1>
+      <h1>O’zbekiston banklaridagi dollar valyuta kurslari</h1>
     </div>
 
     <div class="table">
-        <table>
-            <thead>
-                <th>Bank Nomi</th>
-                <th>Sotish</th>
-                <th>Olish</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-                <tr>
-                    <td>Infinbank</td>
-                    <td>10440</td>
-                    <td>10500</td>
-                </tr>
-
-
-            </tbody>
-        </table>
+      <table>
+        <thead>
+          <th>Bank Nomi</th>
+          <th>Olish</th>
+          <th>Sotish</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td>10440</td>
+            <td>10500</td>
+          </tr>
+          <tr>
+            <td>Infinbank</td>
+            <td colspan="2">10440</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-</body>
+  </body>
+
+  <script>
+    var myJson = "";
+    function setData() {
+      var temp = document.getElementsByTagName("tr");
+      for (var i = 1; i < temp.length; i++) {
+        if (i == 11) {
+            temp[i].children[0].innerText = myJson[i - 1]["name"];
+          temp[i].children[2].innerText = myJson[i - 1]["rate"];
+        //   temp[i].children[1].innerText = myJson[i - 1]["buy"]; 
+        } else {
+          temp[i].children[0].innerText = myJson[i - 1]["name"];
+          temp[i].children[2].innerText = myJson[i - 1]["sell"];
+          temp[i].children[1].innerText = myJson[i - 1]["buy"];
+        //   console.log(temp[i].children[0].innerText);
+        }
+      }
+    }
+    async function getData() {
+      const response = await fetch("/data");
+      myJson = await response.json();
+      setData();
+    }
+    window.onload = getData;
+  </script>
 </html>

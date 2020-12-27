@@ -77,4 +77,8 @@ body {
   th {
       font-size: 30px;
   }
+
+  tr:hover {
+    background-color: rgb(235, 229, 229);
+  }
 }

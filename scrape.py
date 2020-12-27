@@ -162,5 +162,5 @@ trust_rate()
 kapital_rate()
 new_banks = sorted(banks, key = lambda k:k['buy'], reverse=True)
 # # # print(banks)
-print(new_banks)
+# print(new_banks)
 
